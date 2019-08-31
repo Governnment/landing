@@ -1,0 +1,236 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon.eot");
+	src: url("../fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.woff") format("woff"),
+	url("../fonts/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}.flaticon-arrow483:before {
+	content: "\e000";
+}
+.flaticon-arrow487:before {
+	content: "\e001";
+}
+.flaticon-arrowhead7:before {
+	content: "\e002";
+}
+.flaticon-beach23:before {
+	content: "\e003";
+}
+.flaticon-bicycle18:before {
+	content: "\e004";
+}
+.flaticon-bicycle24:before {
+	content: "\e005";
+}
+.flaticon-bicycle5:before {
+	content: "\e006";
+}
+.flaticon-bike20:before {
+	content: "\e007";
+}
+.flaticon-cancel30:before {
+	content: "\e008";
+}
+.flaticon-clock104:before {
+	content: "\e009";
+}
+.flaticon-close42:before {
+	content: "\e00a";
+}
+.flaticon-closed37:before {
+	content: "\e00b";
+}
+.flaticon-croos:before {
+	content: "\e00c";
+}
+.flaticon-cycling:before {
+	content: "\e00d";
+}
+.flaticon-dumbbell20:before {
+	content: "\e00e";
+}
+.flaticon-dumbbell23:before {
+	content: "\e00f";
+}
+.flaticon-dumbbell6:before {
+	content: "\e010";
+}
+.flaticon-dumbbells:before {
+	content: "\e011";
+}
+.flaticon-dumbbells10:before {
+	content: "\e012";
+}
+.flaticon-ecg2:before {
+	content: "\e013";
+}
+.flaticon-excercise:before {
+	content: "\e014";
+}
+.flaticon-exercise1:before {
+	content: "\e015";
+}
+.flaticon-exercise25:before {
+	content: "\e016";
+}
+.flaticon-exercise3:before {
+	content: "\e017";
+}
+.flaticon-finishline:before {
+	content: "\e018";
+}
+.flaticon-football167:before {
+	content: "\e019";
+}
+.flaticon-football68:before {
+	content: "\e01a";
+}
+.flaticon-gazelle:before {
+	content: "\e01b";
+}
+.flaticon-gym11:before {
+	content: "\e01c";
+}
+.flaticon-gym23:before {
+	content: "\e01d";
+}
+.flaticon-gym25:before {
+	content: "\e01e";
+}
+.flaticon-gym27:before {
+	content: "\e01f";
+}
+.flaticon-gym39:before {
+	content: "\e020";
+}
+.flaticon-gym7:before {
+	content: "\e021";
+}
+.flaticon-heart285:before {
+	content: "\e022";
+}
+.flaticon-heart288:before {
+	content: "\e023";
+}
+.flaticon-heart92:before {
+	content: "\e024";
+}
+.flaticon-heel1:before {
+	content: "\e025";
+}
+.flaticon-inverted8:before {
+	content: "\e026";
+}
+.flaticon-last-track:before {
+	content: "\e027";
+}
+.flaticon-lifeline2:before {
+	content: "\e028";
+}
+.flaticon-lifeline5:before {
+	content: "\e029";
+}
+.flaticon-lifeline8:before {
+	content: "\e02a";
+}
+.flaticon-lying1:before {
+	content: "\e02b";
+}
+.flaticon-lying2:before {
+	content: "\e02c";
+}
+.flaticon-man283:before {
+	content: "\e02d";
+}
+.flaticon-mountain22:before {
+	content: "\e02e";
+}
+.flaticon-pulse1:before {
+	content: "\e02f";
+}
+.flaticon-right11:before {
+	content: "\e030";
+}
+.flaticon-runner9:before {
+	content: "\e031";
+}
+.flaticon-shoe1:before {
+	content: "\e032";
+}
+.flaticon-shoes13:before {
+	content: "\e033";
+}
+.flaticon-shoes17:before {
+	content: "\e034";
+}
+.flaticon-shoes18:before {
+	content: "\e035";
+}
+.flaticon-silhouette66:before {
+	content: "\e036";
+}
+.flaticon-sneaker:before {
+	content: "\e037";
+}
+.flaticon-soccer24:before {
+	content: "\e038";
+}
+.flaticon-soccer29:before {
+	content: "\e039";
+}
+.flaticon-soccer38:before {
+	content: "\e03a";
+}
+.flaticon-sport6:before {
+	content: "\e03b";
+}
+.flaticon-sprint:before {
+	content: "\e03c";
+}
+.flaticon-stick-man1:before {
+	content: "\e03d";
+}
+.flaticon-stick-man3:before {
+	content: "\e03e";
+}
+.flaticon-stretch2:before {
+	content: "\e03f";
+}
+.flaticon-swimming1:before {
+	content: "\e040";
+}
+.flaticon-swimming15:before {
+	content: "\e041";
+}
+.flaticon-swimming18:before {
+	content: "\e042";
+}
+.flaticon-three60:before {
+	content: "\e043";
+}
+.flaticon-trail:before {
+	content: "\e044";
+}
+.flaticon-vehicle14:before {
+	content: "\e045";
+}
+.flaticon-water77:before {
+	content: "\e046";
+}
+.flaticon-weightlifter2:before {
+	content: "\e047";
+}
+.flaticon-weightlifter3:before {
+	content: "\e048";
+}
+.flaticon-worker24:before {
+	content: "\e049";
+}
