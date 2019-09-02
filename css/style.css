@@ -180,7 +180,7 @@ body {
 .slide{
     width: calc(100%/10);
     list-style: none;
-    display: inline;
+    display: flex;
     float: left;
 }
 
@@ -200,7 +200,7 @@ body {
     height:16px;
     overflow:hidden;
     text-indent:-9999px;
-    background:url(radioBg.png) center bottom no-repeat;
+    
 }
 
 .Radio-But .ctrl-select:hover {
@@ -2132,7 +2132,7 @@ body {
 	position:absolute;
 	top:45%;
 	right:0px;
-	display:block;
+	display:flex;
 	vertical-align:middle;
 	width:0px;
 	height:0px;
@@ -4138,11 +4138,12 @@ width:85%;
 
 .adress{
 	display: inline;
+	transform: translateX(-10px);
 	
 }
 @media screen and (max-width: 480px){
 	.adress{
 		display: inline;
-		/*margin-right: 40px;
-	
+		transform: translateX(-50px);
+	}
 }

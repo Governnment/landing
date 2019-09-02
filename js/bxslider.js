@@ -85,7 +85,7 @@
 		onSlideNext: function() {},
 		onSlidePrev: function() {},
 		onSliderResize: function() {}
-	}
+	};
 
 	$.fn.bxSlider = function(options){
 
@@ -95,7 +95,7 @@
 		if(this.length > 1){
 			this.each(function(){$(this).bxSlider(options)});
 			return this;
-		}
+		};
 
 		// create a namespace to be used throughout the plugin
 		var slider = {};
@@ -134,7 +134,7 @@
 			// if random start, set the startSlide setting to random number
 			if(slider.settings.randomStart) slider.settings.startSlide = Math.floor(Math.random() * slider.children.length);
 			// store active slide information
-			slider.active = { index: slider.settings.startSlide }
+			slider.active = { index: slider.settings.startSlide };
 			// store if the slider is in carousel mode (displaying / moving multiple slides)
 			slider.carousel = slider.settings.minSlides > 1 || slider.settings.maxSlides > 1;
 			// if carousel, force preloadImages = 'all'
@@ -176,7 +176,7 @@
 			});
 			// perform all DOM / CSS modifications
 			setup();
-		}
+		};
 
 		/**
 		 * Performs all DOM and CSS modifications
@@ -266,7 +266,7 @@
 			}
 			// preload all images, then perform final DOM / CSS modifications that depend on images being loaded
 			loadElements(preloadSelector, start);
-		}
+		};
 
 		var loadElements = function(selector, callback){
 			var total = selector.find('img, iframe').length;
@@ -282,7 +282,7 @@
 				  if(this.complete) $(this).load();
 				});
 			});
-		}
+		};
 
 		/**
 		 * Start the slider
@@ -321,7 +321,7 @@
 			if (slider.settings.controls) updateDirectionControls();
 			// if touchEnabled is true, setup the touch events
 			if (slider.settings.touchEnabled && !slider.settings.ticker) initTouch();
-		}
+		};
 
 		/**
 		 * Returns the calculated height of the viewport, used to determine either adaptiveHeight or the maxHeight value
@@ -378,7 +378,7 @@
 			}
 
 			return height;
-		}
+		};
 
 		/**
 		 * Returns the calculated width to be used for the outer wrapper / viewport
@@ -393,7 +393,7 @@
 				}
 			}
 			return width;
-		}
+		};
 
 		/**
 		 * Returns the calculated width to be applied to each slide
@@ -417,7 +417,7 @@
 				}
 			}
 			return newElWidth;
-		}
+		};
 
 		/**
 		 * Returns the number of slides currently visible in the viewport (includes partially visible slides)
@@ -442,7 +442,7 @@
 				slidesShowing = slider.settings.minSlides;
 			}
 			return slidesShowing;
-		}
+		};
 
 		/**
 		 * Returns the number of pages (one full viewport of slides is one "page")
